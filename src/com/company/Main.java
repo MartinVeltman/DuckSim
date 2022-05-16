@@ -9,7 +9,5 @@ public class Main {
 
         WildDuck wildDuck = new WildDuck();
         wildDuck.display(wildDuck);
-
-
     }
 }

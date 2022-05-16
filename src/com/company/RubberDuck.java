@@ -1,7 +1,7 @@
 package com.company;
 
 public class RubberDuck extends Duck{
-    public RubberDuck(){
+    public RubberDuck() {
         flyBehavior = new FlyNotPossible();
         quackBehavior = new Squeack();
     }

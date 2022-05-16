@@ -7,13 +7,13 @@ public abstract class Duck {
     public Duck() {
     }
 
-    public void display(Duck duck){
+    public void display(Duck duck) {
         duck.flyBehavior.fly();
         duck.quackBehavior.quack();
         duck.swim();
     }
 
-    public void swim(){
+    public void swim() {
         System.out.println("All ducks swim");
     }
 
