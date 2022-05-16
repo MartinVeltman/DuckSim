@@ -7,7 +7,8 @@ public class Main {
         RubberDuck rubberDuck = new RubberDuck();
         rubberDuck.display(rubberDuck);
 
-        WildDuck wildDuck = new WildDuck();
-        wildDuck.display(wildDuck);
+        DutchDuck dutchDuck = new DutchDuck();
+        dutchDuck.display(dutchDuck);
+
     }
 }
